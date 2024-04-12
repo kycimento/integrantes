@@ -7,18 +7,38 @@ body {
 }
 
 /* Estilo para os textos dentro dos elementos p e span */
-p, span {
+p, span, .texto {
     color: rgb(255, 255, 255); /* Cor do texto branco */
+    font-weight: bold; /* Negrito */
+    font-size: larger; /* Um pouco maior que o padrão */
 }
 
-h1 {
+h1, h2 {
     text-align: center; /* Centraliza o texto horizontalmente */
 }
 
+.titulo-centralizado {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    color: #6ac3fb;
+    text-shadow: 0.1em 0.1em #2c2542;
+}
+
+.tituloi {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    color: #6ac3fb;
+    text-shadow: 0.2em 0.2em #2c2542;
+}
 
 .container {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 50px auto;
+    font-size: 18px;
 }
 
 .integrante {
@@ -45,4 +65,8 @@ h1 {
 .role {
     display: block;
     margin-top: 5px; /* Ajuste o valor conforme necessário */
+}
+
+.imagens img {
+    margin-bottom: 10px;
 }
